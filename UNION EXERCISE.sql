@@ -1,4 +1,3 @@
--- Databricks notebook source
 
 -- =========================================
 -- VIEW ALL TABLES (DATA PREVIEW)
@@ -286,3 +285,20 @@ SELECT entry_id,
        2000 AS amount,
        '2026-06-25' AS entry_date
 FROM workspace.default.credit_entries;
+
+
+-- ============================================
+-- BONUS ANSWERS
+-- ============================================
+
+-- Bonus 01:
+-- Use UNION because the analyst wants a unique list of customers.
+-- Duplicates must be removed so that each customer appears only once.
+
+-- Bonus 02:
+-- Use UNION ALL because the auditing team needs every transaction recorded.
+-- Duplicates must be included to ensure accurate counting of all transactions.
+
+-- Bonus 03:
+-- The query fails because the SELECT statements return a different number of columns.
+-- In a UNION operation, both queries must return the same number of columns with matching data types. To fix this, ensure    both SELECT statements have the same number of columns in the same order.

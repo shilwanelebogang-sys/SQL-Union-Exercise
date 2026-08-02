@@ -1,15 +1,12 @@
-# 💼 SQL EXERCISE: UNION & UNION ALL
+# SQL EXERCISE: UNION & UNION ALL
 
-## 👤 About Me
-Hi, I'm **Lebogang Shilwane**, a data-driven professional building strong skills in SQL, data analysis, and business reporting.
-
-- 💻 SQL Environment: Databricks SQL (Apache Spark)
-- 📊 Focus: Data Analysis, Reporting & Business Insights
-- 🚀 Goal: Transition into a Data Analyst / BI role
+- SQL Environment: Databricks SQL (Apache Spark)
+- Focus: Data Analysis, Reporting & Business Insights
+- Goal: Transition into a Data Analyst / BI role
 
 ---
 
-## 📌 Exercise Overview
+## Exercise Overview
 
 This project demonstrates practical SQL skills using `UNION` and `UNION ALL` in a real-world business context.
 
@@ -22,25 +19,25 @@ The dataset simulates a retail banking system (**NexBank**), where data is distr
 - Customer complaints
 - Marketing campaigns
 
-### 🎯 Objective
+### Objective
 To combine datasets effectively while understanding when to:
 - Remove duplicates → `UNION`
 - Keep full data (including duplicates) → `UNION ALL`
 
 ---
 
-## 🧠 Key Skills Demonstrated
+## Key Skills Demonstrated
 
-✅ Writing clean and production-ready SQL  
-✅ Data merging across multiple sources  
-✅ Handling duplicates correctly  
-✅ Creating consistent output schemas  
-✅ Applying SQL to real business scenarios  
-✅ Working in a cloud-based environment (Databricks)
+- Writing clean and production-ready SQL
+- Data merging across multiple sources
+- Handling duplicates correctly
+- Creating consistent output schemas
+- Applying SQL to real business scenarios
+- Working in a cloud-based environment (Databricks)
 
 ---
 
-## 🧩 Problem Approach
+## Problem Approach
 
 | Question | Business Scenario | SQL Concept |
 |---------|-----------------|-------------|
@@ -49,11 +46,11 @@ To combine datasets effectively while understanding when to:
 
 ---
 
-## 📂 Exercise Structure
+## Exercise Structure
 
 ---
 
-## 📊 Query Outputs (Screenshots)
+## Query Outputs (Screenshots)
 
 Below are sample outputs from the queries executed in Databricks:
 
@@ -99,9 +96,9 @@ Below are sample outputs from the queries executed in Databricks:
 
 ---
 
-## 🔍 Key Concepts
+## Key Concepts
 
-### ✅ UNION
+### UNION
 - Combines results from multiple SELECT statements
 - Removes duplicate rows
 - Used for clean, unique datasets
@@ -114,7 +111,7 @@ SELECT column1
 FROM table2;
 ```
 
-### ✅ UNION ALL
+### UNION ALL
 
 - Combines results from multiple SELECT statements
 - Keeps all rows (including duplicates)
@@ -131,7 +128,7 @@ FROM table2;
 
 ---
 
-## ⚠️ Important Rules
+## Important Rules
 
 - Same number of columns in each SELECT
 - Matching data types
@@ -139,18 +136,18 @@ FROM table2;
 
 ---
 
-## 🚀 Business Value
+## Business Value
 This project reflects real-world use cases such as:
 
-- 📈 Data consolidation from multiple systems
-- 🏦 Banking and financial reporting
-- 📊 Audit and transaction tracking
-- 🎯 Marketing audience analysis
-- 🧾 Payment reconciliation
+- Data consolidation from multiple systems
+- Banking and financial reporting
+- Audit and transaction tracking
+- Marketing audience analysis
+- Payment reconciliation
 
 ---
 
-## 📝 Bonus Insights
+## Bonus Insights
 
 - Use UNION → for unique datasets
 - Use UNION ALL → for full datasets

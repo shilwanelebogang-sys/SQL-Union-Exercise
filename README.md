@@ -1,6 +1,6 @@
 # SQL EXERCISE: UNION & UNION ALL
 
-- SQL Environment: Databricks SQL (Apache Spark)
+- SQL Environment: Databricks SQL
 - Focus: Data Analysis, Reporting & Business Insights
 - Goal: Transition into a Data Analyst / BI role
 
